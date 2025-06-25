@@ -1,24 +1,24 @@
 
-import Hero from "@/components/Hero";
-import Features from "@/components/Features";
-import HowItWorks from "@/components/HowItWorks";
-import Stats from "@/components/Stats";
-import Testimonials from "@/components/Testimonials";
-import CTA from "@/components/CTA";
-import Footer from "@/components/Footer";
-import Navigation from "@/components/Navigation";
+import Header from "@/components/Header";
+import HeroSection from "@/components/HeroSection";
+import AboutSection from "@/components/AboutSection";
+import ServicesSection from "@/components/ServicesSection";
+import ProcessSection from "@/components/ProcessSection";
+import ReviewsSection from "@/components/ReviewsSection";
+import ContactSection from "@/components/ContactSection";
+import FooterSection from "@/components/FooterSection";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-white">
-      <Navigation />
-      <Hero />
-      <Stats />
-      <Features />
-      <HowItWorks />
-      <Testimonials />
-      <CTA />
-      <Footer />
+    <div className="min-h-screen bg-gray-50">
+      <Header />
+      <HeroSection />
+      <AboutSection />
+      <ServicesSection />
+      <ProcessSection />
+      <ReviewsSection />
+      <ContactSection />
+      <FooterSection />
     </div>
   );
 };
